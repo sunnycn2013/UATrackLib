@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3787DADC1DC9871000294254 /* UATrackLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787DADB1DC9871000294254 /* UATrackLib.m */; };
+		3787DADD1DC9871000294254 /* UATrackLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3787DADA1DC9871000294254 /* UATrackLib.h */; };
+		3787DAE61DC9899700294254 /* libUATrack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3787DAE41DC9899700294254 /* libUATrack.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3787DAD51DC9870F00294254 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3787DADD1DC9871000294254 /* UATrackLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3787DAD71DC9871000294254 /* libUATrackLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUATrackLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3787DADA1DC9871000294254 /* UATrackLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UATrackLib.h; sourceTree = "<group>"; };
+		3787DADB1DC9871000294254 /* UATrackLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UATrackLib.m; sourceTree = "<group>"; };
+		3787DAE41DC9899700294254 /* libUATrack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUATrack.a; sourceTree = "<group>"; };
+		3787DAE51DC9899700294254 /* UATrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATrack.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3787DAD41DC9870F00294254 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787DAE61DC9899700294254 /* libUATrack.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3787DACE1DC9870F00294254 = {
+			isa = PBXGroup;
+			children = (
+				3787DAD91DC9871000294254 /* UATrackLib */,
+				3787DAD81DC9871000294254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3787DAD81DC9871000294254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3787DAD71DC9871000294254 /* libUATrackLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3787DAD91DC9871000294254 /* UATrackLib */ = {
+			isa = PBXGroup;
+			children = (
+				3787DAE31DC9899700294254 /* UATrack */,
+				3787DADA1DC9871000294254 /* UATrackLib.h */,
+				3787DADB1DC9871000294254 /* UATrackLib.m */,
+			);
+			path = UATrackLib;
+			sourceTree = "<group>";
+		};
+		3787DAE31DC9899700294254 /* UATrack */ = {
+			isa = PBXGroup;
+			children = (
+				3787DAE41DC9899700294254 /* libUATrack.a */,
+				3787DAE51DC9899700294254 /* UATrack.h */,
+			);
+			path = UATrack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3787DAD61DC9870F00294254 /* UATrackLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3787DAE01DC9871000294254 /* Build configuration list for PBXNativeTarget "UATrackLib" */;
+			buildPhases = (
+				3787DAD31DC9870F00294254 /* Sources */,
+				3787DAD41DC9870F00294254 /* Frameworks */,
+				3787DAD51DC9870F00294254 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UATrackLib;
+			productName = UATrackLib;
+			productReference = 3787DAD71DC9871000294254 /* libUATrackLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3787DACF1DC9870F00294254 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = guochaoyang;
+				TargetAttributes = {
+					3787DAD61DC9870F00294254 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MN4VXL32ZM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3787DAD21DC9870F00294254 /* Build configuration list for PBXProject "UATrackLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3787DACE1DC9870F00294254;
+			productRefGroup = 3787DAD81DC9871000294254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3787DAD61DC9870F00294254 /* UATrackLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3787DAD31DC9870F00294254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787DADC1DC9871000294254 /* UATrackLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3787DADE1DC9871000294254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3787DADF1DC9871000294254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3787DAE11DC9871000294254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MN4VXL32ZM;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UATrackLib/UATrack",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3787DAE21DC9871000294254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MN4VXL32ZM;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UATrackLib/UATrack",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3787DAD21DC9870F00294254 /* Build configuration list for PBXProject "UATrackLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3787DADE1DC9871000294254 /* Debug */,
+				3787DADF1DC9871000294254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3787DAE01DC9871000294254 /* Build configuration list for PBXNativeTarget "UATrackLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3787DAE11DC9871000294254 /* Debug */,
+				3787DAE21DC9871000294254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3787DACF1DC9870F00294254 /* Project object */;
+}
